@@ -226,7 +226,7 @@ var countryToLanguageMapping = {
     'yt': 'fr',
     'za': 'zu,xh,af,st,tn,en',
     'zm': 'en',
-    'zw': 'en,sn,nd ',
+    'zw': 'en,sn,nd',
 };
 function mapCountryToLanguage(country_code) {
     if (typeof countryToLanguageMapping[country_code] !== 'undefined') {
